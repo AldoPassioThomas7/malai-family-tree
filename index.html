@@ -1,52 +1,28 @@
 <!DOCTYPE html>
 <html lang="ta">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>மலையப்பன் நாடார் குடும்ப மரம்</title>
+    <title>மலையப்பன் நாடார் குடும்ப மரம்</title>
 
-<script src="https://balkan.app/js/OrgChart.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Treant-js/1.0/Treant.css">
 
-<style>
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    font-family: "Nirmala UI", sans-serif;
-}
+    <link rel="stylesheet" href="style.css">
 
-#tree {
-    width: 100%;
-    height: 100vh;
-}
-</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Treant-js/1.0/Treant.min.js"></script>
 </head>
 
 <body>
 
-<div id="tree"></div>
+<h1>மலையப்பன் நாடார் குடும்ப மரம்</h1>
 
-<script>
+<div id="tree-container"></div>
 
-fetch('family.json')
-    .then(response => response.json())
-    .then(data => {
-
-        new OrgChart(document.getElementById("tree"), {
-
-            mouseScrool: OrgChart.action.zoom,
-
-            nodeBinding: {
-                field_0: "name"
-            },
-
-            nodes: data
-        });
-
-    });
-
-</script>
+<script src="family.js"></script>
 
 </body>
 </html>

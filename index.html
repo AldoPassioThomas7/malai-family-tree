@@ -5,24 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>மலையப்பன் நாடார் குடும்ப மரம்</title>
-
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/Treant-js/1.0/Treant.css">
+    <title>மலையப்பன் நாடார் குடும்பம்</title>
 
     <link rel="stylesheet" href="style.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Treant-js/1.0/Treant.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script defer src="family.js"></script>
 </head>
 
 <body>
 
-<h1>மலையப்பன் நாடார் குடும்ப மரம்</h1>
-
-<div id="tree-container"></div>
-
-<script src="family.js"></script>
+<main class="app">
+    <header class="page-header">
+        <div>
+            <p class="eyebrow">நம் குடும்பம் · நம் வேர்கள்</p>
+            <h1>மலையப்பன் நாடார் குடும்பம்</h1>
+            <p class="subtitle">தலைமுறைகளையும் உறவுகளையும் அறிந்துகொள்ளுங்கள்.</p>
+        </div>
+        <p id="family-summary" class="summary" aria-live="polite"></p>
+    </header>
+    <section class="explorer" aria-label="குடும்ப மரம்">
+        <div class="toolbar">
+            <div class="search">
+                <label for="member-search">உறுப்பினரைத் தேடுங்கள்</label>
+                <div class="search-input">
+                    <input id="member-search" type="search" placeholder="பெயரை உள்ளிடுங்கள்…"
+                        autocomplete="off" aria-controls="search-results" disabled>
+                    <button id="clear-search" type="button" disabled>அழி</button>
+                </div>
+                <div id="search-panel" class="search-panel" hidden>
+                    <p id="search-status" role="status"></p>
+                    <ul id="search-results" aria-label="தேடல் முடிவுகள்"></ul>
+                </div>
+            </div>
+            <div class="view-controls" role="group" aria-label="காட்சி கட்டுப்பாடுகள்">
+                <button id="zoom-out" type="button" aria-label="சிறிதாக்கு" title="சிறிதாக்கு" disabled>−</button>
+                <output id="zoom-level" aria-label="பெரிதாக்க அளவு">100%</output>
+                <button id="zoom-in" type="button" aria-label="பெரிதாக்கு" title="பெரிதாக்கு" disabled>+</button>
+                <button id="fit-tree" type="button" disabled>முழு மரம்</button>
+                <button id="reset-view" type="button" disabled>தொடக்கக் காட்சி</button>
+            </div>
+        </div>
+        <div id="tree-container" aria-busy="true">
+            <svg id="family-tree" tabindex="0" role="group" aria-label="குடும்ப மரக் காட்சி"
+                aria-describedby="navigation-help">
+                <title>குடும்ப உறுப்பினர்களும் தலைமுறைகளும்</title>
+            </svg>
+            <div id="tree-message" class="tree-message" role="status">
+                <p id="message-text">குடும்ப மரம் ஏற்றப்படுகிறது…</p>
+                <button id="retry-load" type="button" hidden>மீண்டும் முயற்சி</button>
+            </div>
+        </div>
+        <footer class="explorer-footer">
+            <p id="navigation-help">நகர்த்த இழுக்கவும் · பெரிதாக்க சக்கரம் அல்லது இரு விரல்களைப் பயன்படுத்தவும் · விசைப்பலகை: அம்புகள், + / −, Home</p>
+            <span class="legend"><span class="legend-dot" aria-hidden="true"></span>ஒரு அட்டை · ஒரு குடும்பப் பதிவு</span>
+        </footer>
+    </section>
+    <footer class="page-footer" lang="en">
+        <p class="creator-credit">Created by Aldo Passio Thomas P</p>
+        <p>If you find any incorrect or missing details, or would like to add information, please WhatsApp
+            <a class="contact-link" href="https://wa.me/917010493743" target="_blank"
+                rel="noopener noreferrer" aria-label="Contact us on WhatsApp at +91 7010493743 (opens in a new tab)">7010493743</a>.
+        </p>
+    </footer>
+    <noscript><p class="noscript-error">குடும்ப மரத்தைக் காண JavaScript-ஐ இயக்கவும்.</p></noscript>
+</main>
 
 </body>
 </html>

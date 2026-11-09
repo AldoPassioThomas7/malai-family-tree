@@ -1,59 +1,729 @@
 {
-  "name": "மலையப்பன் நாடார் (1800)",
+  "Id": "person-001",
+  "Name": "மலையப்பன் நாடார்",
+  "Aliases": [],
+  "Gender": "Male",
+  "Birth": {
+    "Date": "1800",
+    "IsApproximate": null,
+    "Place": null
+  },
+  "Death": {
+    "Date": null,
+    "IsApproximate": null,
+    "Place": null
+  },
+  "Spouse": null,
+  "Burial": {
+    "CemeteryName": null,
+    "Location": null,
+    "GraveFound": null
+  },
+  "Notes": null,
+  "Sources": [],
   "children": [
     {
-      "name": "சவரிமுத்து நாடார் (தகவல் இல்லை)"
+      "Id": "person-002",
+      "Name": "சவரிமுத்து நாடார்",
+      "Aliases": [],
+      "Gender": "Male",
+      "Birth": {
+        "Date": null,
+        "IsApproximate": null,
+        "Place": null
+      },
+      "Death": {
+        "Date": null,
+        "IsApproximate": null,
+        "Place": null
+      },
+      "Spouse": null,
+      "Burial": {
+        "CemeteryName": null,
+        "Location": null,
+        "GraveFound": null
+      },
+      "Notes": "தகவல் இல்லை",
+      "Sources": []
     },
     {
-      "name": "சாந்தப்பன் நாடார் + இராயம்மை நாடாச்சி",
+      "Id": "person-003",
+      "Name": "சாந்தப்பன் நாடார்",
+      "Aliases": [],
+      "Gender": "Male",
+      "Birth": {
+        "Date": null,
+        "IsApproximate": null,
+        "Place": null
+      },
+      "Death": {
+        "Date": null,
+        "IsApproximate": null,
+        "Place": null
+      },
+      "Spouse": {
+        "Id": "person-004",
+        "Name": "இராயம்மை நாடாச்சி",
+        "Aliases": [],
+        "Gender": null,
+        "Birth": {
+          "Date": null,
+          "IsApproximate": null,
+          "Place": null
+        },
+        "Death": {
+          "Date": null,
+          "IsApproximate": null,
+          "Place": null
+        },
+        "Spouse": null,
+        "Burial": {
+          "CemeteryName": null,
+          "Location": null,
+          "GraveFound": null
+        },
+        "Notes": null,
+        "Sources": []
+      },
+      "Burial": {
+        "CemeteryName": null,
+        "Location": null,
+        "GraveFound": null
+      },
+      "Notes": null,
+      "Sources": [],
       "children": [
         {
-          "name": "மிக்கேல் அந்தோணி முத்து நாடார் (1864) + வியாகூலமரியாள்",
+          "Id": "person-005",
+          "Name": "மிக்கேல் அந்தோணி முத்து நாடார்",
+          "Aliases": [],
+          "Gender": "Male",
+          "Birth": {
+            "Date": "1864",
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Death": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Spouse": {
+            "Id": "person-006",
+            "Name": "வியாகூலமரியாள்",
+            "Aliases": [],
+            "Gender": null,
+            "Birth": {
+              "Date": null,
+              "IsApproximate": null,
+              "Place": null
+            },
+            "Death": {
+              "Date": null,
+              "IsApproximate": null,
+              "Place": null
+            },
+            "Spouse": null,
+            "Burial": {
+              "CemeteryName": null,
+              "Location": null,
+              "GraveFound": null
+            },
+            "Notes": null,
+            "Sources": []
+          },
+          "Burial": {
+            "CemeteryName": null,
+            "Location": null,
+            "GraveFound": null
+          },
+          "Notes": null,
+          "Sources": [],
           "children": [
-            {"name":"இருதய நாடார்"},
-            {"name":"அன்பு நாடார் (சிறுவயதில் இறந்தார்)"},
-            {"name":"இயேசுவடியன் நாடார்"},
-            {"name":"சாந்தப்பன் நாடார்"},
-            {"name":"வெள்ளையம்மாள்"}
+            {
+              "Id": "person-007",
+              "Name": "இருதய நாடார்",
+              "Aliases": [],
+              "Gender": "Male",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            },
+            {
+              "Id": "person-008",
+              "Name": "அன்பு நாடார்",
+              "Aliases": [],
+              "Gender": "Male",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": "சிறுவயதில் இறந்தார்",
+              "Sources": []
+            },
+            {
+              "Id": "person-009",
+              "Name": "இயேசுவடியன் நாடார்",
+              "Aliases": [],
+              "Gender": "Male",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            },
+            {
+              "Id": "person-010",
+              "Name": "சாந்தப்பன் நாடார்",
+              "Aliases": [],
+              "Gender": "Male",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            },
+            {
+              "Id": "person-011",
+              "Name": "வெள்ளையம்மாள்",
+              "Aliases": [],
+              "Gender": "Female",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            }
           ]
         },
         {
-          "name":"மலையப்பன் நாடார்",
-          "children":[
-            {"name":"தெரியவில்லை"}
+          "Id": "person-012",
+          "Name": "மலையப்பன் நாடார்",
+          "Aliases": [],
+          "Gender": "Male",
+          "Birth": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Death": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Spouse": null,
+          "Burial": {
+            "CemeteryName": null,
+            "Location": null,
+            "GraveFound": null
+          },
+          "Notes": null,
+          "Sources": [],
+          "children": [
+            {
+              "Id": "person-013",
+              "Name": "தெரியவில்லை",
+              "Aliases": [],
+              "Gender": "Male",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            }
           ]
         },
         {
-          "name":"சவரிமுத்து நாடார்",
-          "children":[
-            {"name":"தெரியவில்லை"}
+          "Id": "person-014",
+          "Name": "சவரிமுத்து நாடார்",
+          "Aliases": [],
+          "Gender": "Male",
+          "Birth": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Death": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Spouse": null,
+          "Burial": {
+            "CemeteryName": null,
+            "Location": null,
+            "GraveFound": null
+          },
+          "Notes": null,
+          "Sources": [],
+          "children": [
+            {
+              "Id": "person-015",
+              "Name": "தெரியவில்லை",
+              "Aliases": [],
+              "Gender": "Male",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            }
           ]
         },
         {
-          "name":"(Need to Find)"
+          "Id": "person-016",
+          "Name": "(Need to Find)",
+          "Aliases": [],
+          "Gender": "Male",
+          "Birth": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Death": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Spouse": null,
+          "Burial": {
+            "CemeteryName": null,
+            "Location": null,
+            "GraveFound": null
+          },
+          "Notes": null,
+          "Sources": []
         },
         {
-          "name":"மலையப்பன் வெள்ளையா நாடார் + அன்னம்மாள்",
-          "children":[
-            {"name":"தங்கம்"},
-            {"name":"இராசம்மாள்"},
-            {"name":"அந்தோனி பிச்சை நாடார் (கோவில் பிச்சை நாடார்)"},
-            {"name":"ஜெபமாலை"}
+          "Id": "person-017",
+          "Name": "மலையப்பன் வெள்ளையா நாடார்",
+          "Aliases": [],
+          "Gender": "Male",
+          "Birth": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Death": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Spouse": {
+            "Id": "person-018",
+            "Name": "அன்னம்மாள்",
+            "Aliases": [],
+            "Gender": null,
+            "Birth": {
+              "Date": null,
+              "IsApproximate": null,
+              "Place": null
+            },
+            "Death": {
+              "Date": null,
+              "IsApproximate": null,
+              "Place": null
+            },
+            "Spouse": null,
+            "Burial": {
+              "CemeteryName": null,
+              "Location": null,
+              "GraveFound": null
+            },
+            "Notes": null,
+            "Sources": []
+          },
+          "Burial": {
+            "CemeteryName": null,
+            "Location": null,
+            "GraveFound": null
+          },
+          "Notes": null,
+          "Sources": [],
+          "children": [
+            {
+              "Id": "person-019",
+              "Name": "தங்கம்",
+              "Aliases": [],
+              "Gender": "Female",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            },
+            {
+              "Id": "person-020",
+              "Name": "இராசம்மாள்",
+              "Aliases": [],
+              "Gender": "Female",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            },
+            {
+              "Id": "person-021",
+              "Name": "கோவில் பிச்சை நாடார்",
+              "Aliases": [],
+              "Gender": "Male",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": "அந்தோனி பிச்சை நாடார்",
+              "Sources": []
+            },
+            {
+              "Id": "person-022",
+              "Name": "ஜெபமாலை நாடார்",
+              "Aliases": [],
+              "Gender": "Male",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            }
           ]
         },
         {
-          "name":"இராயப்பன் நாடார் + மரிய செல்வம் அம்மாள்",
-          "children":[
-            {"name":"சாந்தம்மாள்"},
-            {"name":"அற்புதமணி"},
-            {"name":"மரிய தாசன் நாடார்"},
-            {"name":"அன்னபாகியம்"}
+          "Id": "person-023",
+          "Name": "இராயப்பன் நாடார்",
+          "Aliases": [],
+          "Gender": "Male",
+          "Birth": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Death": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Spouse": {
+            "Id": "person-024",
+            "Name": "மரிய செல்வம் அம்மாள்",
+            "Aliases": [],
+            "Gender": null,
+            "Birth": {
+              "Date": null,
+              "IsApproximate": null,
+              "Place": null
+            },
+            "Death": {
+              "Date": null,
+              "IsApproximate": null,
+              "Place": null
+            },
+            "Spouse": null,
+            "Burial": {
+              "CemeteryName": null,
+              "Location": null,
+              "GraveFound": null
+            },
+            "Notes": null,
+            "Sources": []
+          },
+          "Burial": {
+            "CemeteryName": null,
+            "Location": null,
+            "GraveFound": null
+          },
+          "Notes": null,
+          "Sources": [],
+          "children": [
+            {
+              "Id": "person-025",
+              "Name": "சாந்தம்மாள்",
+              "Aliases": [],
+              "Gender": "Female",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            },
+            {
+              "Id": "person-026",
+              "Name": "அற்புதமணி",
+              "Aliases": [],
+              "Gender": "Female",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            },
+            {
+              "Id": "person-027",
+              "Name": "மரியதாசன் நாடார்",
+              "Aliases": [],
+              "Gender": "Male",
+              "Birth": {
+                "Date": "1923-11-23",
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": "2000-12-05",
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": "RC cemetery",
+                "Location": null,
+                "GraveFound": true
+              },
+              "Notes": null,
+              "Sources": []
+            },
+            {
+              "Id": "person-028",
+              "Name": "அன்னபாகியம்",
+              "Aliases": [],
+              "Gender": "Female",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            }
           ]
         },
         {
-          "name":"மரிய வியாகப்பன் நாடார்",
-          "children":[
-            {"name":"ராஜமணி நாடார்"}
+          "Id": "person-029",
+          "Name": "மரிய வியாகப்பன் நாடார்",
+          "Aliases": [],
+          "Gender": "Male",
+          "Birth": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Death": {
+            "Date": null,
+            "IsApproximate": null,
+            "Place": null
+          },
+          "Spouse": null,
+          "Burial": {
+            "CemeteryName": null,
+            "Location": null,
+            "GraveFound": null
+          },
+          "Notes": null,
+          "Sources": [],
+          "children": [
+            {
+              "Id": "person-030",
+              "Name": "ராஜமணி நாடார்",
+              "Aliases": [],
+              "Gender": "Male",
+              "Birth": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Death": {
+                "Date": null,
+                "IsApproximate": null,
+                "Place": null
+              },
+              "Spouse": null,
+              "Burial": {
+                "CemeteryName": null,
+                "Location": null,
+                "GraveFound": null
+              },
+              "Notes": null,
+              "Sources": []
+            }
           ]
         }
       ]

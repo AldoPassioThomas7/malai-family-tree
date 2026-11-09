@@ -1,0 +1,85 @@
+body {
+    font-family: "Nirmala UI", "Latha", sans-serif;
+    background: #f5f7fa;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #004080;
+}
+
+.tree ul {
+    padding-top: 20px;
+    position: relative;
+}
+
+.tree li {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 5px 0 5px;
+    position: relative;
+}
+
+.tree li::before,
+.tree li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    border-top: 2px solid #999;
+    width: 50%;
+    height: 20px;
+}
+
+.tree li::after {
+    right: auto;
+    left: 50%;
+    border-left: 2px solid #999;
+}
+
+.tree li:only-child::after,
+.tree li:only-child::before {
+    display: none;
+}
+
+.tree li:only-child {
+    padding-top: 0;
+}
+
+.tree li:first-child::before,
+.tree li:last-child::after {
+    border: 0 none;
+}
+
+.tree li:last-child::before {
+    border-right: 2px solid #999;
+}
+
+.tree li:first-child::after {
+    border-radius: 5px 0 0 0;
+}
+
+.tree li:last-child::before {
+    border-radius: 0 5px 0 0;
+}
+
+.tree ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 2px solid #999;
+    width: 0;
+    height: 20px;
+}
+
+.tree li div {
+    border: 1px solid #4b7bec;
+    background: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    min-width: 220px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}

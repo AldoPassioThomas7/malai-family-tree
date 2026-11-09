@@ -1,1 +1,26 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: #f5f7fa;
+    font-family: "Nirmala UI", sans-serif;
+}
 
+h1 {
+    text-align: center;
+    color: #0f4c81;
+}
+
+#tree-container {
+    width: 100%;
+    height: 1200px;
+}
+
+.family-node {
+    border: 2px solid #2d6cdf;
+    border-radius: 8px;
+    background: white;
+    padding: 10px;
+    min-width: 220px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
